@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <div class= "directory"><a href=#menu>MENU</a></div>
+  <div class= "directory"><a href=#about>ABOUT US</a></div>
+    <div class= "directory"><a href=#order>ORDER NOW</a></div>
+
+    <style>
+        div.directory{
+         float:right;
+          width: 150px;
+          height: 25px;
+          background-color:tomato;
+        }
+      a{
+        color:seashell;
+        font-family: "helvetica", sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <br><h1 id="title">
+Solomon's Italian Restaurant
+    </h1>
+
+  <div class="subtitle"><h1>
+        Quality Ingredients for Quality Consumers
+    </h1></div>
+<h2 id="about">ABOUT US</h2>
+<p>
+    Here at Solomon's Restaurant we are dedicated to creating delicious meals cultivated from local agriculture. Our mission is to deliver fresh and delicious food straight from the farm to the dinner plate. All Solomon's Restaurant items are completely GMO free and our meat is always pasture raised. 
+</p>
+<h2 id="menu">MENU</h2>
+<table>
+        <tr><th id = "specials" class= "menu-title">SPECIALS</th></tr>
+        <tr><th class = "menu-item">Eggplant Parmesan</th>
+            <td class = "item-price">15</td></tr>
+    <td><em> Deliciously prepared and hand crafted to perfection, with a hand crafted cheese blend. </em></td>
+        <tr><th class = "menu-item">Fettuccini Afredo</th>
+            <td class = "item-price">14</td></tr>
+    <td><em> Our restaurant's signiture handmade fettuccini, topped with custom alfredo sauce. </em></td>
+        <tr><th class = "menu-item">Sunday Gravy Spaghetti</th>
+            <td class = "item-price">15</td></tr>
+    <td><em> Old fashioned traditional Sunday gravy tomato sauce and spaghetti. </em></td>
+        <tr><th id = "more-food" class= "menu-title">MORE FOOD</th></tr>
+        <tr><th class = "menu-item">Burger and Fries</th>
+            <td class = "item-price">13</td></tr>
+        <td><em> Not feeling Italian? Get a classical American meal. </em></td>
+            <tr><th class = "menu-item">Macaroni and Cheese</th>
+            <td class = "item-price">11</td></tr>
+        <td><em> Delicious four cheese blend topped with your choice of bacon or italian sausage. </em></td>
+            <tr><th class = "menu-item">Lentil Soup</th>
+            <td class = "item-price">15</td></tr>
+        <td><em> Solomon's favorite soup coming out hot and fresh. </em></td>       
+</table>
+<h2 id="order"> Order Online with DoorDash!</h2> 
+
+<style>
+    #title{
+        background-color: lightgrey;
+        height: 175px;
+      line-height: 250px;
+      font-size: 75px
+}
+.subtitle h1 {
+  background-color:tomato;
+  font-family: sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+} 
+ 
+</style>
+</body>
+</html>
